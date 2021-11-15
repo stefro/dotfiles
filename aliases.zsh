@@ -66,7 +66,9 @@ alias cat='bat'
 alias pf="php-cs-fixer fix"
 
 # composer
+alias c='composer'
 alias ci='composer install'
+alias cr='composer require'
 
 # functions
 arm() {
