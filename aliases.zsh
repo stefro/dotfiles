@@ -59,7 +59,6 @@ alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
-alias cci="composer install --ignore-platform-reqs"
 
 # cli tools
 alias cat='bat'
@@ -70,6 +69,7 @@ alias pf="php-cs-fixer fix"
 alias c='composer'
 alias ci='composer install'
 alias cr='composer require'
+alias cci="composer install --ignore-platform-reqs"
 
 # functions
 arm() {
