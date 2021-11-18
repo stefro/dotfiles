@@ -59,6 +59,7 @@ alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
+alias cci="composer install --ignore-platform-reqs"
 
 # cli tools
 alias cat='bat'
