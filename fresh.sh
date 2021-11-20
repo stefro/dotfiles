@@ -53,7 +53,7 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 # Symlink global gitignore
-ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore
+ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
 
 # install zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
