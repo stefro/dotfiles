@@ -58,6 +58,7 @@ cask 'chronosync'
 cask 'deepl'
 cask 'discord'
 # cask 'docker' // No ARM version through cask
+cask 'fig'
 # cask 'google-chrome' // No ARM version through cask
 # cask 'helo' // No ARM version through cask
 cask 'iterm2'
