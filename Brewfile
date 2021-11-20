@@ -61,7 +61,6 @@ cask 'fig'
 # cask 'google-chrome' // No ARM version through cask
 # cask 'helo' // No ARM version through cask
 cask 'iterm2'
-cask 'noun-project'
 # cask 'invoker' // No ARM version through cask
 # cask 'phpstorm' // No ARM version through cask
 cask 'phpmon'
