@@ -54,5 +54,3 @@ ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore
 # install zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
 
-# Set macOS preferences - we will run this last because this will reload the shell
-source .macos
