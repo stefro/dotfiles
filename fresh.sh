@@ -18,6 +18,10 @@ if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
+
+# Set a temp path to homebrew install. Will be replaced with the final .zshrc file.
+export PATH="/opt/homebrew/bin:$PATH"
+
 # Update Homebrew recipes
 brew update
 
