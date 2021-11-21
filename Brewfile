@@ -51,7 +51,6 @@ brew 'yarn'
 # Apps
 cask 'alfred'
 cask 'appdelete'
-cask 'chronosync'
 cask 'deepl'
 cask 'discord'
 # cask 'docker' // No ARM version through cask
