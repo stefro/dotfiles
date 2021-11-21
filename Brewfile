@@ -51,7 +51,6 @@ brew 'yarn'
 
 # Apps
 cask 'alfred'
-cask 'dropbox'
 cask 'appdelete'
 cask 'chronosync'
 cask 'deepl'
