@@ -60,9 +60,9 @@ cask 'iterm2'
 # cask 'invoker' // No ARM version through cask
 cask 'phpstorm'
 cask 'phpmon'
-# cask 'ray' // No ARM version through cask
+cask 'ray'
 cask 'sublime-text'
-# cask 'tinkerwell' // No ARM version through cask
+cask 'tinkerwell'
 cask 'transmit'
 
 # Quicklook
