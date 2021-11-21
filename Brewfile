@@ -53,20 +53,17 @@ cask 'alfred'
 cask 'appdelete'
 cask 'deepl'
 cask 'discord'
-# cask 'docker' // No ARM version through cask
 cask 'fig'
-# cask 'google-chrome' // No ARM version through cask
+cask 'google-chrome'
 # cask 'helo' // No ARM version through cask
 cask 'iterm2'
 # cask 'invoker' // No ARM version through cask
-# cask 'phpstorm' // No ARM version through cask
+cask 'phpstorm'
 cask 'phpmon'
 # cask 'ray' // No ARM version through cask
 cask 'sublime-text'
 # cask 'tinkerwell' // No ARM version through cask
 cask 'transmit'
-# cask 'vlc' // No ARM version through cask
-# cask 'zoom' // No ARM version through cask
 
 # Quicklook
 cask 'qlmarkdown'
