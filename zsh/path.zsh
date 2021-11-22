@@ -26,6 +26,11 @@ export PATH="$HOME/projects/spark-installer:$PATH"
 # npm-global
 export PATH="$HOME/.npm-global/bin:$PATH"
 
+# We're using Node 14 because of issues
+export PATH="/opt/homebrew/opt/node@14/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/node@14/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/node@14/include"
+
 # homebrew
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
