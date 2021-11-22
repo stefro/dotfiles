@@ -63,6 +63,7 @@ cask 'phpmon'
 cask 'ray'
 cask 'sublime-text'
 cask 'tinkerwell'
+cask 'toggle-track'
 cask 'transmit'
 
 # Quicklook
