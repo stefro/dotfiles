@@ -45,6 +45,7 @@ alias gco="git checkout"
 alias ga='git add'
 alias gcm='git checkout master'
 alias gcd='git checkout develop'
+alias gcmsg='git commit -m'
 alias gl="git log --oneline --decorate --color"
 alias amend="git add . && git commit --amend --no-edit"
 alias commit="git add . && git commit -m"
