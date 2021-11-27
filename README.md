@@ -36,10 +36,10 @@ First, go through the checklist below to make sure you didn't forget anything be
    git clone git@github.com:stefro/dotfiles.git ~/.dotfiles
    ```
 
-4. Run the installation with:
+4. `cd` into the `.dotfiles` dir and run the installation with:
 
    ```zsh
-   ~/.dotfiles/fresh.sh
+   ./fresh.sh
    ```
 
 5. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
