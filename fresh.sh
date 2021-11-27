@@ -37,7 +37,7 @@ psql postgres -U stef -c "CREATE ROLE postgres SUPERUSER; ALTER ROLE postgres WI
 CREATE ROLE marketsquare SUPERUSER; ALTER ROLE marketsquare WITH LOGIN; ALTER ROLE marketsquare WITH CREATEROLE; ALTER ROLE marketsquare WITH CREATEDB;"
 
 # Install PHP extensions with PECL
-pecl install imagick memcached redis swoole
+pecl install imagick memcached redis swoole pcov
 
 # Install global Composer packages
 /opt/homebrew/bin/composer global require laravel/installer laravel/valet beyondcode/expose
