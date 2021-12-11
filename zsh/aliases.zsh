@@ -104,3 +104,6 @@ function link:foundation() {
 function unlink:foundation() {
     unlink $1/node_modules
 }
+
+# Spotlight
+alias fix-spotlight-globally="find ~ -type d -path './.*' -prune -o -path './vendor*' -prune -o -path '*node_modules/*' -prune -o -type d -name 'node_modules' -exec touch '{}/.metadata_never_index' \; -print"
