@@ -20,6 +20,7 @@ alias ltail='tail -f -n 450 storage/logs/laravel*.log \
     "^\[\d{4}\-\d{2}\-\d{2} \d{2}:\d{2}:\d{2}\]|Next [\w\W]+?\:" \
     --color'
 alias mfs="php artisan migrate:fresh --seed"
+alias clearall="php artisan cache:clear && php artisan route:clear && php artisan config:clear && php artisan view:clear"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
