@@ -71,6 +71,7 @@ alias c='composer'
 alias ci='composer install'
 alias cr='composer require'
 alias cci="composer install --ignore-platform-reqs"
+alias cu='composer update'
 
 # functions
 arm() {
