@@ -36,26 +36,24 @@ brew 'gifsicle'
 # Development
 brew 'php'
 brew 'php@7.4'
-brew 'postgresql'
 brew 'composer'
 brew 'imagemagick'
 brew 'libmemcached'
-brew 'meilisearch'
 brew 'memcached'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
-brew 'redis'
 brew 'yarn'
 
 # Apps
 cask 'alfred'
 cask 'appdelete'
+cask 'dbngin'
 cask 'deepl'
 cask 'discord'
 cask 'fig'
 cask 'google-chrome'
-# cask 'helo' // No ARM version through cask
+cask 'helo'
 cask 'iterm2'
 cask 'invoker'
 cask 'phpstorm'
@@ -102,6 +100,5 @@ mas 'Microsoft Outlook', id: 985367838
 mas 'Microsoft PowerPoint', id: 462062816
 mas 'Things', id: 904280696
 mas 'Spark', id: 1176895641
-mas 'Slack', id: 803453959
 mas 'LanguageTool', id: 1534275760
 mas 'Telegram', id: 747648890

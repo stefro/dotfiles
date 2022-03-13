@@ -31,12 +31,8 @@ brew bundle
 # Set default MySQL root password and auth type
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
-# Set default PostgeSQL user and password; And user Marketsquare for local dev
-psql postgres -U stef -c "CREATE ROLE postgres SUPERUSER; ALTER ROLE postgres WITH LOGIN; ALTER ROLE postgres WITH CREATEROLE; ALTER ROLE postgres WITH CREATEDB;
-CREATE ROLE marketsquare SUPERUSER; ALTER ROLE marketsquare WITH LOGIN; ALTER ROLE marketsquare WITH CREATEROLE; ALTER ROLE marketsquare WITH CREATEDB;"
-
 # Install PHP extensions with PECL
-pecl install imagick memcached redis swoole pcov
+pecl install imagick swoole pcov
 
 # Install global Composer packages
 /opt/homebrew/bin/composer global require laravel/installer laravel/valet beyondcode/expose

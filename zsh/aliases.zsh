@@ -94,18 +94,5 @@ function opendb () {
    open $DB_URL
 }
 
-# usage: link:foundation '../laravel-foundation' 'foundation'
-function link:foundation() {
-    composer config repositories.$2 '{"type": "path", "url": "'$1'"}' &&
-    composer require arkecosystem/foundation --ignore-platform-reqs -W &&
-    rm -rf $1/node_modules &&
-    ln -s $(pwd)/node_modules $1/node_modules
-}
-
-# usage: unlink:foundation '../laravel-foundation'
-function unlink:foundation() {
-    unlink $1/node_modules
-}
-
 # Spotlight
 alias fix-spotlight-globally="find ~ -type d -path './.*' -prune -o -path './vendor*' -prune -o -path '*node_modules/*' -prune -o -type d -name 'node_modules' -exec touch '{}/.metadata_never_index' \; -print"

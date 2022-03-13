@@ -2,8 +2,6 @@
 export PATH="${PATH}:${HOME}/.local/bin"
 eval "$(fig init zsh pre)"
 
-
-
 # Path to your dotfiles.
 export DOTFILES=$HOME/.dotfiles
 
