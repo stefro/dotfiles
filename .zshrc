@@ -115,7 +115,6 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
-
 # Fig post block. Keep at the bottom of this file.
 eval "$(fig init zsh post)"
+
