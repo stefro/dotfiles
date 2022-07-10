@@ -17,14 +17,10 @@ brew 'git'
 brew 'gnupg'
 brew 'grep'
 brew 'httpie'
-brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn'
-brew 'trash' # Manage the Trash bin
-brew 'tree' # List directories in a tree structure
-brew 'zlib' # Needed for Memcached
 
 # Spatie Medialibrary
 brew 'jpegoptim'
@@ -35,27 +31,30 @@ brew 'gifsicle'
 
 # Development
 brew 'php'
+brew 'php@8.0'
 brew 'php@7.4'
 brew 'composer'
 brew 'imagemagick'
-brew 'libmemcached'
-brew 'memcached'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
 brew 'yarn'
 
 # Apps
+cask '1password'
+cask 'adobe-creative-cloud'
 cask 'alfred'
 cask 'appdelete'
 cask 'dbngin'
 cask 'deepl'
 cask 'discord'
 cask 'fig'
+cask 'firefox'
 cask 'google-chrome'
 cask 'helo'
 cask 'iterm2'
 cask 'invoker'
+cask 'microsoft-teams'
 cask 'phpstorm'
 cask 'phpmon'
 cask 'ray'
@@ -63,6 +62,7 @@ cask 'sublime-text'
 cask 'tinkerwell'
 cask 'toggl-track'
 cask 'transmit'
+cask 'whatsapp'
 
 # Quicklook
 cask 'qlmarkdown'
