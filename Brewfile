@@ -79,7 +79,6 @@ cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
 # use command: "mas list" to get a list of currenty installed apps
-mas '1Password 7', id: 1333542190
 mas 'Final Cut Pro', id: 424389933
 mas 'Keynote', id: 409183694
 mas 'LanScan', id: 472226235
