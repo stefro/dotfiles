@@ -32,13 +32,16 @@ brew bundle
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Install PHP extensions with PECL
-pecl install imagick swoole pcov
+pecl install imagick swoole pcov redis
 
 # Install global Composer packages
-/opt/homebrew/bin/composer global require laravel/installer laravel/valet beyondcode/expose
+/opt/homebrew/bin/composer global require laravel/installer laravel/valet beyondcode/expose spatie/global-ray
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
+
+# Install Global Ray
+$HOME/.composer/vendor/bin/global-ray install
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
