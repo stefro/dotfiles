@@ -1,3 +1,6 @@
+# PHPmon helpers
+export PATH=$HOME/bin:~/.config/phpmon/bin:$PATH
+
 # Load Node global installed binaries
 export PATH="$HOME/.node/bin:$PATH"
 
