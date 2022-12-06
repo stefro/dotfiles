@@ -62,7 +62,6 @@ cask 'sourcetree'
 cask 'spotify'
 cask 'sublime-text'
 cask 'tinkerwell'
-cask 'toggl-track'
 cask 'transmit'
 cask 'whatsapp'
 
@@ -105,3 +104,4 @@ mas 'LanguageTool', id: 1534275760
 mas 'Telegram', id: 747648890
 mas 'Brother P-touch Editor', id: 1453365242
 mas '1Password for Safari', id: 1569813296
+mas 'Toggle Track', id: 1291898086
