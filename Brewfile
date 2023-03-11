@@ -31,7 +31,7 @@ brew 'gifsicle'
 # Development
 brew 'php'
 brew 'php@8.0'
-brew 'php@7.4'
+brew 'php@8.1'
 brew 'composer'
 brew 'imagemagick'
 brew 'mysql'
@@ -41,7 +41,6 @@ brew 'yarn'
 
 # Apps
 cask '1password'
-cask 'adguard'
 cask 'adobe-creative-cloud'
 cask 'appdelete'
 cask 'dbngin'
@@ -55,6 +54,7 @@ cask 'invoker'
 cask 'microsoft-teams'
 cask 'phpstorm'
 cask 'phpmon'
+cask 'postman'
 cask 'ray'
 cask 'raycast'
 cask 'setapp'
@@ -92,16 +92,15 @@ mas 'Compressor', id: 424390742
 mas 'Mactracker', id: 430255202
 mas 'Evernote', id: 406056744
 mas 'Kaleidoscope', id: 587512244
-mas 'Medis', id: 1063631769
 mas 'Giphy Capture', id: 668208984
 mas 'Microsoft Word', id: 462054704
 mas 'Microsoft Excel', id: 462058435
 mas 'Microsoft Outlook', id: 985367838
 mas 'Microsoft PowerPoint', id: 462062816
-mas 'Things', id: 904280696
-mas 'Spark', id: 1176895641
 mas 'LanguageTool', id: 1534275760
 mas 'Telegram', id: 747648890
 mas 'Brother P-touch Editor', id: 1453365242
 mas '1Password for Safari', id: 1569813296
 mas 'Toggle Track', id: 1291898086
+mas 'OneDrive', id: 823766827
+mas 'Todoist', id: 585829637
