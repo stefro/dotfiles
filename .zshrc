@@ -115,3 +115,4 @@ export LANG=en_US.UTF-8
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+source /Users/stef/.config/op/plugins.sh
