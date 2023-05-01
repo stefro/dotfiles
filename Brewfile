@@ -64,6 +64,7 @@ cask 'sublime-text'
 cask 'tinkerwell'
 cask 'transmit'
 cask 'whatsapp'
+cask 'aicommits'
 
 # Quicklook
 cask 'qlmarkdown'

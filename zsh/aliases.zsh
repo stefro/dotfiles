@@ -49,7 +49,6 @@ alias gcd='git checkout develop'
 alias gcmsg='git commit -m'
 alias gl="git log --oneline --decorate --color"
 alias amend="git add . && git commit --amend --no-edit"
-alias commit="git add . && git commit -m"
 alias diff="git diff"
 alias force="git push --force"
 alias nah="git clean -df && git reset --hard"
@@ -59,7 +58,7 @@ alias push="git push"
 alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
-alias wip="commit wip"
+alias wip="commit"
 
 # cli tools
 alias cat='bat'
@@ -92,6 +91,19 @@ function opendb () {
 
    echo "Opening ${DB_URL}"
    open $DB_URL
+}
+
+function commit() {
+   commitMessage="$*"
+
+   git add .
+
+   if [ "$commitMessage" = "" ]; then
+      aicommits
+      return
+   fi
+ 
+   eval "git commit -a -m '${commitMessage}'"
 }
 
 # Spotlight
