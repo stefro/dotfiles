@@ -9,6 +9,7 @@ tap 'nicoverbruggen/homebrew-cask'
 cask_args appdir: '/Applications'
 
 # Binaries
+brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat'
 brew 'coreutils' # Those that come with macOS are outdated
@@ -29,14 +30,10 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
-brew 'php'
-brew 'php@8.0'
-brew 'php@8.1'
-brew 'composer'
 brew 'imagemagick'
 brew 'mysql'
-brew 'nginx'
 brew 'node'
+brew 'redis'
 brew 'yarn'
 
 # Apps
@@ -48,22 +45,19 @@ cask 'deepl'
 cask 'discord'
 cask 'firefox'
 cask 'google-chrome'
+cask 'herd'
 cask 'helo'
 cask 'iterm2'
 cask 'invoker'
 cask 'microsoft-teams'
 cask 'phpstorm'
-cask 'phpmon'
 cask 'postman'
 cask 'ray'
 cask 'raycast'
 cask 'setapp'
 cask 'sourcetree'
-cask 'spotify'
 cask 'sublime-text'
 cask 'tinkerwell'
-cask 'transmit'
-cask 'whatsapp'
 cask 'aicommits'
 
 # Quicklook
@@ -93,7 +87,6 @@ mas 'Compressor', id: 424390742
 mas 'Mactracker', id: 430255202
 mas 'Evernote', id: 406056744
 mas 'Kaleidoscope', id: 587512244
-mas 'Giphy Capture', id: 668208984
 mas 'Microsoft Word', id: 462054704
 mas 'Microsoft Excel', id: 462058435
 mas 'Microsoft Outlook', id: 985367838

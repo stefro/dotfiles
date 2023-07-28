@@ -26,8 +26,7 @@ alias clearall="php artisan cache:clear && php artisan route:clear && php artisa
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
 
 # JS
-alias nfresh="rm -rf node_modules/ package-lock.json && yarn install"
-alias watch="npm run watch"
+alias nfresh="rm -rf node_modules/ package-lock.json && npm ci"
 
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
