@@ -58,6 +58,7 @@ alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit"
+alias uncommit="git reset --soft HEAD~1"
 
 # cli tools
 alias cat='bat'
