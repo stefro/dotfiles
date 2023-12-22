@@ -50,7 +50,6 @@ alias gl="git log --oneline --decorate --color"
 alias amend="git add . && git commit --amend --no-edit"
 alias diff="git diff"
 alias force="git push --force"
-alias nah="git clean -df && git reset --hard"
 alias pop="git stash pop"
 alias pull="git pull"
 alias push="git push"
@@ -59,6 +58,13 @@ alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit"
 alias uncommit="git reset --soft HEAD~1"
+nah () {
+    git reset --hard
+    git clean -df
+    if [ -d ".git/rebase-apply" ] || [ -d ".git/rebase-merge" ]; then
+        git rebase --abort
+    fi
+}
 
 # cli tools
 alias cat='bat'

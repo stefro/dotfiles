@@ -37,6 +37,7 @@ brew 'redis'
 brew 'yarn'
 
 # Apps
+cask 'aws-vault'
 cask '1password'
 cask 'adobe-creative-cloud'
 cask 'appdelete'
