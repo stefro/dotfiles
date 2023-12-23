@@ -10,6 +10,7 @@ cask_args appdir: '/Applications'
 
 # Binaries
 brew 'awscli'
+brew 'awsebcli'
 brew 'bash' # Latest Bash version
 brew 'bat'
 brew 'coreutils' # Those that come with macOS are outdated
