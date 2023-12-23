@@ -17,7 +17,6 @@ brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'git'
 brew 'grep'
-brew 'httpie'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
@@ -45,6 +44,7 @@ cask 'appdelete'
 cask 'dbngin'
 cask 'deepl'
 cask 'discord'
+cask 'docker'
 cask 'firefox'
 cask 'google-chrome'
 cask 'herd'
