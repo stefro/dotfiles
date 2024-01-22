@@ -30,6 +30,9 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
+brew 'php'
+brew 'php@8.1'
+brew 'composer'
 brew 'imagemagick'
 brew 'mysql'
 brew 'node'
