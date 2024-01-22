@@ -15,6 +15,18 @@ if test ! $(which brew); then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
+# Install PHP extensions with PECL
+pecl install imagick swoole pcov redis
+
+# Install global Composer packages
+/opt/homebrew/bin/composer global require laravel/installer laravel/valet spatie/global-ray
+
+# Install Laravel Valet
+$HOME/.composer/vendor/bin/valet install
+
+# Install Global Ray
+$HOME/.composer/vendor/bin/global-ray install
+
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
