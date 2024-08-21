@@ -56,7 +56,8 @@ alias push="git push"
 alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
-alias wip="commit"
+# alias wip="commit"
+alias wip="git add . && git commit -m 'wip'"
 alias uncommit="git reset --soft HEAD~1"
 nah () {
     git reset --hard
@@ -99,18 +100,18 @@ function opendb () {
    open $DB_URL
 }
 
-function commit() {
-   commitMessage="$*"
+# function commit() {
+#    commitMessage="$*"
 
-   git add .
+#    git add .
 
-   if [ "$commitMessage" = "" ]; then
-      aicommits
-      return
-   fi
+#    if [ "$commitMessage" = "" ]; then
+#       aicommits
+#       return
+#    fi
  
-   eval "git commit -a -m '${commitMessage}'"
-}
+#    eval "git commit -a -m '${commitMessage}'"
+# }
 
 # Spotlight
 alias fix-spotlight-globally="find ~ -type d -path './.*' -prune -o -path './vendor*' -prune -o -path '*node_modules/*' -prune -o -type d -name 'node_modules' -exec touch '{}/.metadata_never_index' \; -print"
