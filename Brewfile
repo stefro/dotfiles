@@ -1,16 +1,13 @@
 # Taps
-tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
-tap 'nicoverbruggen/homebrew-cask'
 
 # Make sure apps get installed in system Applications dir
 cask_args appdir: '/Applications'
 
 # Binaries
 brew 'awscli'
-brew 'awsebcli'
 brew 'bash' # Latest Bash version
 brew 'bat'
 brew 'coreutils' # Those that come with macOS are outdated
@@ -20,7 +17,7 @@ brew 'grep'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'svn'
+brew 'svn' # Needed to install fonts
 
 # Spatie Medialibrary
 brew 'jpegoptim'
@@ -30,40 +27,33 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
-brew 'php'
-brew 'php@8.1'
-brew 'composer'
 brew 'imagemagick'
-brew 'mysql'
-brew 'node'
-brew 'redis'
 brew 'yarn'
 
 # Apps
-cask 'aws-vault'
-cask '1password'
-cask 'adobe-creative-cloud'
+# cask '1password' We'll install it manually first to setup the SSH agent to sync the SSH keys
+cask 'arctic'
 cask 'appdelete'
-cask 'dbngin'
 cask 'deepl'
 cask 'discord'
 cask 'docker'
 cask 'firefox'
+cask 'github'
 cask 'google-chrome'
-cask 'helo'
+cask 'herd'
 cask 'iterm2'
 cask 'invoker'
+cask 'logi-options-plus'
 cask 'microsoft-teams'
+vask 'notion'
 cask 'phpstorm'
-cask 'phpmon'
-cask 'postman'
-cask 'ray'
 cask 'raycast'
 cask 'setapp'
 cask 'sourcetree'
 cask 'sublime-text'
 cask 'tinkerwell'
-cask 'aicommits'
+cask 'wifiman'
+cask 'zoom'
 
 # Quicklook
 cask 'qlmarkdown'
@@ -87,7 +77,6 @@ mas 'Magnet', id: 441258766
 mas 'Numbers', id: 409203825
 mas 'Leaf', id: 576338668
 mas 'Pages', id: 409201541
-mas 'Bear', id: 1091189122
 mas 'Compressor', id: 424390742
 mas 'Mactracker', id: 430255202
 mas 'Evernote', id: 406056744
@@ -100,6 +89,5 @@ mas 'LanguageTool', id: 1534275760
 mas 'Telegram', id: 747648890
 mas 'Brother P-touch Editor', id: 1453365242
 mas '1Password for Safari', id: 1569813296
-mas 'Toggle Track', id: 1291898086
-mas 'OneDrive', id: 823766827
 mas 'Todoist', id: 585829637
+mas 'Amphetamine', id: 937984704

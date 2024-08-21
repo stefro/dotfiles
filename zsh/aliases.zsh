@@ -12,15 +12,16 @@ alias clr="clear"
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias projects="cd $HOME/projects"
+alias sites="cd $HOME/Herd"
 
 # Laravel
-alias art="php artisan"
+alias art="herd php artisan"
 alias ltail='tail -f -n 450 storage/logs/laravel*.log \
   | grep -i -E \
     "^\[\d{4}\-\d{2}\-\d{2} \d{2}:\d{2}:\d{2}\]|Next [\w\W]+?\:" \
     --color'
-alias mfs="php artisan migrate:fresh --seed"
-alias clearall="php artisan optimize:clear"
+alias mfs="herd php artisan migrate:fresh --seed"
+alias clearall="herd php artisan optimize:clear"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"

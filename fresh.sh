@@ -15,18 +15,6 @@ if test ! $(which brew); then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-# Install PHP extensions with PECL
-pecl install imagick swoole pcov redis
-
-# Install global Composer packages
-/opt/homebrew/bin/composer global require laravel/installer laravel/valet spatie/global-ray
-
-# Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
-
-# Install Global Ray
-$HOME/.composer/vendor/bin/global-ray install
-
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
@@ -41,6 +29,9 @@ brew bundle --file ./Brewfile
 # Set default MySQL root password and auth type
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
+# Create a projects directories
+mkdir $HOME/projects
+mkdir $HOME/Herd
 
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
