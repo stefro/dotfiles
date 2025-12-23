@@ -31,10 +31,8 @@ brew 'yarn'
 # Apps
 # cask '1password' We'll install it manually first to setup the SSH agent to sync the SSH keys
 cask 'arctic'
-cask 'appdelete'
 cask 'deepl'
 cask 'discord'
-cask 'docker'
 cask 'firefox'
 cask 'github'
 cask 'google-chrome'
