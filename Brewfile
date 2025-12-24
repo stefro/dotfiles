@@ -83,5 +83,4 @@ mas 'LanguageTool', id: 1534275760
 mas 'Telegram', id: 747648890
 mas 'Brother P-touch Editor', id: 1453365242
 mas '1Password for Safari', id: 1569813296
-mas 'Todoist', id: 585829637
-mas 'Amphetamine', id: 937984704
+mas 'WhatsApp', id: 310633997
