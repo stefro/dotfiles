@@ -80,7 +80,7 @@ ZSH_CUSTOM=$DOTFILES/zsh
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions git-trim)
+plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -149,3 +149,9 @@ export HERD_PHP_84_INI_SCAN_DIR="/Users/stef/Library/Application Support/Herd/co
 # Herd injected PHP 8.5 configuration.
 export HERD_PHP_85_INI_SCAN_DIR="/Users/stef/Library/Application Support/Herd/config/php/85/"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.npm-global/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/stef/.lmstudio/bin"
+# End of LM Studio CLI section
+

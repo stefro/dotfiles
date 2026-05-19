@@ -116,3 +116,6 @@ function opendb () {
 
 # Spotlight
 alias fix-spotlight-globally="find ~ -type d -path './.*' -prune -o -path './vendor*' -prune -o -path '*node_modules/*' -prune -o -type d -name 'node_modules' -exec touch '{}/.metadata_never_index' \; -print"
+
+# Obsidian
+alias prive_notes='cd /Users/stef/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Prive\ notes'
