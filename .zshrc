@@ -155,3 +155,4 @@ export PATH="$HOME/.npm-global/bin:$PATH"
 export PATH="$PATH:/Users/stef/.lmstudio/bin"
 # End of LM Studio CLI section
 
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
